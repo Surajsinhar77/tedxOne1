@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 640px) {
+
+    /* Apply styles for screens up to 640px wide (typical mobile) */
+    .mainHeading h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+
+    /* Apply styles for screens between 641px and 768px (small tablets) */
+    .mainHeading h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Apply styles for screens between 769px and 1024px (tablets) */
+    .mainHeading h1 {
+        font-size: 4rem;
+    }
+}
